@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de HTML Sergie Code</title>
+    <meta name="author" content="Federico Villanueva">
+    <meta name="description" content="Primera pagína Web con Sergie Code">
+    <link rel="shortcut icon" href="icons8-sitio-web-64.png" type="image/x-icon">
+
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #92a4ff;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+        .image {
+            float: right;
+            margin: 0 0 20px 20px;
+            max-width: 25%;
+            height: auto;
+        }
+
+        .image2 {
+            float: left;
+            margin: 0 20px 20px 0;
+            max-width: 25%;
+            height: auto;
+        }
+
+        .article {
+            float: left;
+            width: 70%;
+            background-color: #FFF;
+            padding: 10px;
+            margin: 10px;
+            border: 1px solid #CCC;
+        }
+
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <h1>Mi primera página Web, Curso HTML Sergie Code</h1>
+            <ul>
+                <li>
+                    <a class="active" href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="cursos.html">Cursos</a>
+                </li>
+                <li>
+                    <a href="audiovisuales.html">Audiovisuales</a>
+                </li>
+                <li>
+                    <a href="contactos.html">Contactos</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <article class="container">
+        <h2 style="margin: 15px;">¿Quién soy?</h2>
+        <p>
+            <strong>¡Hola! Soy Federico Villanueva</strong>, un joven de 32 años de <i>Entre Ríos, Argentina,</i> que
+            está sumergido en el mundo
+            del diseño UX/UI y el desarrollo web. Aunque no tengo formación formal en estas áreas, me apasiona aprender
+            de manera autodidacta. Estoy explorando diferentes recursos en línea y libros para adquirir conocimientos y
+            habilidades en este campo. Mi objetivo es convertirme en un profesional competente en diseño y desarrollo
+            web, y estoy emocionado por el viaje de aprendizaje que tengo por delante.
+        </p>
+        <img class="image" src="/asset/img/fede.jpg" alt="Foto de Federico">
+    </article>
+
+    <hr>
+
+    <article class="container">
+        <h3>Mis objetivos</h3>
+        <img class="image2" src="/asset/img/fede2.jpg" alt="Foto de Federico" width="300px">
+        <p>
+            Mis objetivos a corto plazo en el campo del diseño UX/UI y desarrollo web incluyen consolidar mis
+            conocimientos básicos y habilidades prácticas. Planeo completar cursos y tutoriales en línea sobre
+            principios de diseño, herramientas de prototipado y lenguajes de programación relevantes. También aspiro a
+            participar en proyectos pequeños para aplicar lo que he aprendido y ganar experiencia práctica en la
+            creación de interfaces de usuario atractivas y funcionales.
+            <br>
+            Mirando hacia el futuro, mi objetivo es convertirme en un profesional altamente competente y solicitado en
+            el campo del diseño UX/UI y el desarrollo web. Para lograr esto, planeo seguir avanzando en mi educación y
+            desarrollo profesional. Esto incluye la posibilidad de obtener certificaciones reconocidas en diseño UX/UI y
+            programación web, así como también trabajar en proyectos más grandes y desafiantes que me permitan seguir
+            creciendo y expandiendo mis habilidades.
+            <br>
+            Además, tengo la intención de establecer mi propia marca personal como diseñador y desarrollador web
+            independiente. Me gustaría construir una cartera sólida que muestre mis habilidades y proyectos destacados,
+            y establecer relaciones con clientes y colegas en la industria. Mi objetivo final es crear productos
+            digitales que no solo sean visualmente atractivos, sino que también ofrezcan una experiencia de usuario
+            excepcional y cumplan con las necesidades y expectativas de los usuarios finales. En resumen, mi visión a
+            largo plazo es convertirme en un Diseñador UX/UI y desarrollador web, contribuyendo de
+            manera significativa a la creación de soluciones digitales innovadoras y efectivas.
+        </p>
+    </article>
+
+    <footer class="footer">
+        <p>Derechos reservados &copy; 2023</p>
+    </footer>
+
+</body>
+
+</html>
